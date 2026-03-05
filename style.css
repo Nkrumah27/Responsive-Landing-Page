@@ -22,3 +22,26 @@ p {
     max-width: 600px;
     margin: 0 auto 2rem auto;
 }
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #4a90e2;
+    color: #ffffff;
+    padding: 4rem 2rem;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+.cta{
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.cta:hover {
+  background-color: #e0e0e0;
+}
